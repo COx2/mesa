@@ -978,7 +978,7 @@ VKAPI_ATTR void VKAPI_CALL lvp_GetPhysicalDeviceProperties(VkPhysicalDevice phys
       .driverVersion = 1,
       .vendorID = VK_VENDOR_ID_MESA,
       .deviceID = 0,
-      .deviceType = VK_PHYSICAL_DEVICE_TYPE_CPU,
+      .deviceType = VK_PHYSICAL_DEVICE_TYPE_DISCRETE_GPU,
       .limits = pdevice->device_limits,
       .sparseProperties = {0},
    };
